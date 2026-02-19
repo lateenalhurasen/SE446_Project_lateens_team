@@ -7,4 +7,4 @@ SE446 Project Lateen's Group
 - Lateen Alhurasen — Student ID: 231543
 - Layan Alshowaier — Student ID: 231361
 - Almaha Alrasheed — Student ID: 231701
-- Moody Alsadoon — Student ID: 231589
+- Moudi Alsadoon — Student ID: 231589

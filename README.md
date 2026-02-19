@@ -1,7 +1,7 @@
 # SE446 — Project Milestone 1: Chicago Crime Analytics with MapReduce
 
 ## Group Name
-se446-project
+SE446 Project Lateen's Group
 
 ## Team Members
 - Lateen Alhurasen — Student ID: 231543

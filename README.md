@@ -19,8 +19,19 @@ SE446 Project Lateen's Group
 - Execution Logs: 
 ---
 ## Task 3
-
+- Instructions: 
+- Sample Results: 
+- Interpretation: 
+- Execution Logs: 
 ---
 ## Task 4
+- Instructions: 
+- Sample Results: 
+- Interpretation: 
+- Execution Logs: 
 ---
 ## Task 5
+- Instructions: 
+- Sample Results: 
+- Interpretation: 
+- Execution Logs: 

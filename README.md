@@ -8,3 +8,19 @@ SE446 Project Lateen's Group
 - Layan Alshowaier — Student ID: 231361
 - Almaha Alrasheed — Student ID: 231707
 - Moudi Alsadoon — Student ID: 231589
+
+## Executive Summary
+
+---
+## Task 2: Crime Type Distribution
+- Instructions: 
+- Sample Results: 
+- Interpretation: 
+- Execution Logs: 
+---
+## Task 3
+
+---
+## Task 4
+---
+## Task 5

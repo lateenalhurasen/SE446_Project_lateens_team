@@ -3,7 +3,7 @@
 
 then it prompted me to enter my password
 
-### Step 2: Connecting to the HDFS cluster
+### Step 2: Logging in the HDFS cluster
 `ssh lalshowaier@134.209.172.50`
 
  then it prompted me to enter my password

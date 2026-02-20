@@ -1,12 +1,14 @@
-## Output for step 1: Correctly uploading the mapperT4.py and reducer.py files into the HDFS cluster
-
+## Output for step 1: Correctly downloading the mapperT4.py and reducer.py files into the HDFS cluster
+ ```
 mapperT4.py                           100%  826     3.5KB/s   00:00
 reducer.py                            100%  616     3.1KB/s   00:00
+ ```
 
-## Output for step 2:
+## Output for step 2: Logging in succesfully
 no output; prompted to enter the next line
 
-## Output for step 3:
+## Output for step 3: Successfully running the Hadoop 
+ ```
 packageJobJar: [] [/opt/hadoop-3.4.1/share/hadoop/tools/lib/hadoop-streaming-3.4.1.jar] /tmp/streamjob12747843494104654193.jar tmpDir=null
 2026-02-20 13:51:37,316 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at master-node/134.209.172.50:8032
 2026-02-20 13:51:37,692 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at master-node/134.209.172.50:8032
@@ -87,29 +89,31 @@ packageJobJar: [] [/opt/hadoop-3.4.1/share/hadoop/tools/lib/hadoop-streaming-3.4
         File Output Format Counters
                 Bytes Written=185
 2026-02-20 13:55:12,976 INFO streaming.StreamJob: Output directory: /user/lalshowaier/project/m1/task4
-
+ ```
 ### Output for step 4: Results for the number of crimes in Chicago
-- 2001: 4
-- 2002: 2
-- 2003: 1
-- 2004: 6
-- 2005: 19
-- 2006: 4
-- 2007: 7
-- 2008: 16
-- 2009: 5
-- 2010: 5
-- 2011: 7
-- 2012: 9
-- 2013: 10
-- 2014: 16
-- 2015: 28
-- 2016: 20
-- 2017: 49
-- 2018: 28
-- 2019: 36
-- 2020: 25
-- 2021: 83
-- 2022: 135
-- 2023: 9446
-- 2024: 39
+ ```
+2001: 4
+2002: 2
+2003: 1
+2004: 6
+2005: 19
+2006: 4
+2007: 7
+2008: 16
+2009: 5
+2010: 5
+2011: 7
+2012: 9
+2013: 10
+2014: 16
+2015: 28
+2016: 20
+2017: 49
+2018: 28
+2019: 36
+2020: 25
+2021: 83
+2022: 135
+2023: 9446
+2024: 39
+ ```

@@ -5,7 +5,7 @@ reducer.py                            100%  616     3.1KB/s   00:00
  ```
 
 ## Output for step 2: Logging in succesfully
-no output; prompted to enter the next line
+no output; prompted to enter my password then moved on to the next line
 
 ## Output for step 3: Successfully running the Hadoop 
  ```

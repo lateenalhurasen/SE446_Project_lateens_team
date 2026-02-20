@@ -1,5 +1,6 @@
 ### Step 1: Downloading mapperT4.py and reducer.py to the HDFS cluster
 `scp Milestone1/src/task4/mapperT4.py Milestone1/src/task4/reducer.py lalshowaier@134.209.172.50:~/`
+
 then it prompted me to enter my password
 
 ### Step 2: Connecting to the HDFS cluster

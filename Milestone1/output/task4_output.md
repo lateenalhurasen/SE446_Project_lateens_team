@@ -1,5 +1,5 @@
 ## Output for step 1:
-
+### Results for the number of crimes in Chicago
 - 2001: 4
 - 2002: 2
 - 2003: 1

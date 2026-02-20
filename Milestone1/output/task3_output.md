@@ -1,15 +1,10 @@
 
-## Task 3 – Location Hotspots Output
+## Location Hotspots Output -task 3-
 
 ## From step 1 (i try upload scripts to cluster)
 
 ```powershell
-scp .\Milestone1\src\task3\mapperT3.py .\Milestone1\src\task3\reducer.py amlaalrasheed@134.209.172.50:~/
-```
-
-## From step 1 (i try upload scripts to cluster)
-```powershell
-scp .\Milestone1\src\task3\mapperT3.py .\Milestone1\src\task3\reducer.py amlaalrasheed@134.209.172.50:~/
+PS C:\Users\ALMIHA\OneDrive\Documents\Desktop\SE446_Project_lateens_team> scp .\Milestone1\src\task3\mapperT3.py .\Milestone1\src\task3\reducer.py amlaalrasheed@134.209.172.50:~/
 ```
 ## OUTPUT step 1
 ```powershell
@@ -24,7 +19,6 @@ reducer.py                                                                      
 PS C:\Users\ALMIHA\OneDrive\Documents\Desktop\SE446_Project_lateens_team> ssh amlaalrasheed@134.209.172.50
 amlaalrasheed@134.209.172.50's password:
 ```
-
 ## OUTPUT step 1
 ```powershell
 Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 5.15.0-170-generic x86_64)
@@ -55,7 +49,7 @@ Run 'do-release-upgrade' to upgrade to it.
 Last login: Wed Feb 18 07:27:57 2026 from 176.44.76.249
 ```
 
-## From step 1 (i try upload scripts to cluster)
+## From step 1 (i run source for hadoop)
 ```powershell
 amlaalrasheed@master-node:~$ source /etc/profile.d/hadoop.sh
 ```
@@ -202,7 +196,7 @@ packageJobJar: [] [/opt/hadoop-3.4.1/share/hadoop/tools/lib/hadoop-streaming-3.4
 2026-02-20 13:10:37,410 INFO streaming.StreamJob: Output directory: /user/amlaalrasheed/project/m1/task3
 ```
 
-## From step 3 (i try upload scripts to cluster)
+## From step 3 (this has display the result)
 ```powershell
 amlaalrasheed@master-node:~$ hdfs dfs -cat /user/amlaalrasheed/project/m1/task3/part-00000
 ```
@@ -431,15 +425,9 @@ VESTIBULE       28
 WAREHOUSE       10739
 WOODED AREA     7
 YARD    336
-YMCA    3
-amlaalrasheed@master-node:~$  hdfs dfs -cat /user/amlaalrasheed/project/m1/task3/part-00000 | head -5
-"CTA ""L"" PLATFORM"    14
-"CTA ""L"" TRAIN"       14
-"SCHOOL 195010
-"VEHICLE - OTHER RIDE SHARE SERVICE (E.G.       462
-"VEHICLE - OTHER RIDE SHARE SERVICE (LYFT       636                                                                   
+YMCA    3                                                                 
 ```
-## From step 4 (based on the research question -> Research Question: Where do most crimes occur?)
+## From step 4 (based on the research question -> Research Question: Where do most crimes occur? -> this is going to list the answers)
 ```powershell
 amlaalrasheed@master-node:~$ hdfs dfs -cat /user/amlaalrasheed/project/m1/task3/part-00000 \
 | sort -k2,2nr \

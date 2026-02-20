@@ -25,8 +25,10 @@ mapred streaming \
 amlaalrasheed@master-node:~$ hdfs dfs -cat /user/amlaalrasheed/project/m1/task3/part-00000
 ```
 
-### Note, this has been added to display the top 5 
+### Note, this has been added to display the top 5 locations with the most crimes 
 ```bash
-amlaalrasheed@master-node:~$  hdfs dfs -cat /user/amlaalrasheed/project/m1/task3/part-00000 | head -5
+amlaalrasheed@master-node:~$ hdfs dfs -cat /user/amlaalrasheed/project/m1/task3/part-00000 \
+| sort -k2,2nr \
+| head -5
 ```
 

@@ -9,7 +9,7 @@ reducer.py                                       100%  616     3.7KB/s   00:00
 ```bash
 Last login: Wed Feb 18 07:27:24 2026 from 176.44.76.249
 ```
-## Step 3 & 4 Output: 
+## Step 3 & 4 Output: Loading hadoop and running a streaming mapreduce using .py scripts
 ```bash
 packageJobJar: [] [/opt/hadoop-3.4.1/share/hadoop/tools/lib/hadoop-streaming-3.4.1.jar] /tmp/streamjob9603392745152245676.jar tmpDir=null
 2026-02-20 13:56:00,188 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at master-node/134.209.172.50:8032

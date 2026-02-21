@@ -5,7 +5,36 @@ reducer.py                            100%  616     3.1KB/s   00:00
  ```
 
 ## Output for step 2: Logging in succesfully
-no output; prompted to enter my password then moved on to the next line
+It prompted to enter my password then moved on to:
+ ```
+lalshowaier@134.209.172.50's password:
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 5.15.0-170-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Fri Feb 20 13:46:57 UTC 2026
+
+  System load:  0.0                Processes:             119
+  Usage of /:   19.6% of 77.35GB   Users logged in:       1
+  Memory usage: 27%                IPv4 address for eth0: 134.209.172.50
+  Swap usage:   0%                 IPv4 address for eth0: 10.17.0.5
+
+Expanded Security Maintenance for Applications is not enabled.
+
+6 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+New release '24.04.4 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+Last login: Wed Feb 18 07:15:25 2026 from 176.44.76.249
+ ```
 
 ## Output for step 3: Successfully running the Hadoop 
  ```

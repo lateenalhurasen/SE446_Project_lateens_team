@@ -35,8 +35,10 @@ Run 'do-release-upgrade' to upgrade to it.
 
 Last login: Wed Feb 18 07:15:25 2026 from 176.44.76.249
  ```
+## Output for step 3: Successfully loading the Hadoop 
+No visible output for this command
 
-## Output for step 3: Successfully running the Hadoop 
+## Output for step 4: Successfully running the Hadoop 
  ```
 packageJobJar: [] [/opt/hadoop-3.4.1/share/hadoop/tools/lib/hadoop-streaming-3.4.1.jar] /tmp/streamjob12747843494104654193.jar tmpDir=null
 2026-02-20 13:51:37,316 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at master-node/134.209.172.50:8032

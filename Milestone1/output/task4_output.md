@@ -121,7 +121,7 @@ packageJobJar: [] [/opt/hadoop-3.4.1/share/hadoop/tools/lib/hadoop-streaming-3.4
                 Bytes Written=185
 2026-02-20 13:55:12,976 INFO streaming.StreamJob: Output directory: /user/lalshowaier/project/m1/task4
  ```
-## Output for step 4: Results for the number of crimes in Chicago
+## Output for step 5: Results for the number of crimes in Chicago per year
  ```
 2001: 4
 2002: 2
@@ -148,11 +148,17 @@ packageJobJar: [] [/opt/hadoop-3.4.1/share/hadoop/tools/lib/hadoop-streaming-3.4
 2023: 9446
 2024: 39
  ```
-# ADD TOP 5
+## Output for step 5.1: Displaying the top 5 results of crimes commited in Chicago per year
+ ```
+2023    9446
+2022    135
+2021    83
+2017    49
+2024    39
+ ```
 
 
-
-## Appendix: Full execution
+## Appendix: Full terminal execution (commands + outputs)
 
  ```
 PS C:\Users\layan\OneDrive\Desktop\SE446_Project_lateens_team> scp mapperT4.py reducer.py lalshowaier@134.209.172.50:~/
@@ -357,5 +363,11 @@ sk4/part-00000
 2021    83
 2022    135
 2023    9446
+2024    39
+lalshowaier@master-node:~$ hdfs dfs -cat /user/lalshowaier/project/m1/task4/part-00000 | sort -k2 -nr | head -5
+2023    9446
+2022    135
+2021    83
+2017    49
 2024    39
  ```

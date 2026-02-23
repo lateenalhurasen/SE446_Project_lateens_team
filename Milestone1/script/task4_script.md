@@ -24,8 +24,7 @@ then it prompted me to enter my password
 ```
 
 ### Step 5: Viewing the output
-`hdfs dfs -cat /user/lalshowaier/project/m1/ta
-sk4/part-00000`
+`hdfs dfs -cat /user/lalshowaier/project/m1/task4/part-00000`
 
 
 

@@ -26,5 +26,7 @@ then it prompted me to enter my password
 ### Step 5: Viewing the output
 `hdfs dfs -cat /user/lalshowaier/project/m1/task4/part-00000`
 
+#### Step 5.1: Displaying the top 5 results 
+`hdfs dfs -cat /user/lalshowaier/project/m1/task4/part-00000 | sort -k2 -nr | head -5`
 
 

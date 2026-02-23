@@ -1,10 +1,10 @@
-## Output for step 1: Correctly downloading the mapperT4.py and reducer.py files into the HDFS cluster
+## Output for step 1: Correctly uploading the mapperT4.py and reducer.py files into the HDFS cluster
  ```
 mapperT4.py                           100%  826     3.5KB/s   00:00
 reducer.py                            100%  616     3.1KB/s   00:00
  ```
 
-## Output for step 2: Logging in succesfully
+## Output for step 2: Connecting to the cluster successfully
 It prompted to enter my password then moved on to:
  ```
 lalshowaier@134.209.172.50's password:
@@ -38,7 +38,7 @@ Last login: Wed Feb 18 07:15:25 2026 from 176.44.76.249
 ## Output for step 3: Successfully loading the Hadoop 
 No visible output for this command
 
-## Output for step 4: Successfully running the Hadoop 
+## Output for step 4: Successfully executing the Hadoop streaming
  ```
 packageJobJar: [] [/opt/hadoop-3.4.1/share/hadoop/tools/lib/hadoop-streaming-3.4.1.jar] /tmp/streamjob12747843494104654193.jar tmpDir=null
 2026-02-20 13:51:37,316 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at master-node/134.209.172.50:8032

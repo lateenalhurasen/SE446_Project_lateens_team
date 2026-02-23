@@ -1,18 +1,20 @@
-### Step 1: Downloading mapperT4.py and reducer.py to the HDFS cluster
+### Step 0: Local testing
+I tested the mapperT4.py the reducer.py locally before uploading my files onto the HDFS cluster
+
+### Step 1: Uploading mapperT4.py and reducer.py to the HDFS cluster
 `scp Milestone1/src/task4/mapperT4.py Milestone1/src/task4/reducer.py lalshowaier@134.209.172.50:~/`
 
 then it prompted me to enter my password
 
-### Step 2: Logging in the HDFS cluster
+### Step 2: Connecting to the HDFS cluster
 `ssh lalshowaier@134.209.172.50`
 
  then it prompted me to enter my password
 
-### Step 3: Loading the Hadoop
+### Step 3: Loading the Hadoop 
 `source /etc/profile.d/hadoop.sh`
 
-
-### Step 4: Running the Hadoop
+### Step 4: Running the Hadoop Streaming
  ```mapred streaming \
   -files mapperT4.py,reducer.py \
   -mapper "python3 mapperT4.py" \

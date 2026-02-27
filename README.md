@@ -623,9 +623,48 @@ OTHER   266754
 ```
 ---
 ## Task 4 - Layan Alshowaier
-- Instructions: 
-- Sample Results: 
-- Interpretation: 
+- Instructions:
+- 
+Step 1: Upload mapperT4.py and reducer.py using scp.
+
+Step 2: Connect to the server using SSH.
+
+Step 3: Load Hadoop environment:
+
+ ```
+source /etc/profile.d/hadoop.sh
+```
+
+Step 4: Run Hadoop Streaming job:
+
+ ```
+mapred streaming \
+-files mapperT4.py,reducer.py \
+-mapper "python3 mapperT4.py" \
+-reducer "python3 reducer.py" \
+-input /data/chicago_crimes_sample.csv \
+-output /user/lalshowaier/project/m1/task4
+```
+
+Step 5: Display results:
+```
+hdfs dfs -cat /user/lalshowaier/project/m1/task4/part-00000
+```
+
+- Sample Results:
+
+```
+2023    9446
+2022    135
+2021    83
+2017    49
+2024    39
+```
+
+- Interpretation:
+
+The number of crimes in Chicago increases slowly throughout the years with a large spike in 2023 with a very high number of cases recorded in the dataset, making it the year with the highest crime count (9446).
+
 - Execution Logs:
  ```
 PS C:\Users\layan\OneDrive\Desktop\SE446_Project_lateens_team> scp mapperT4.py reducer.py lalshowaier@134.209.172.50:~/

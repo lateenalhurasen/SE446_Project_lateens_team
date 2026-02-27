@@ -663,7 +663,7 @@ hdfs dfs -cat /user/lalshowaier/project/m1/task4/part-00000
 
 - Interpretation:
 
-The number of crimes in Chicago increases slowly throughout the years with a large spike in 2023 with a very high number of cases recorded in the dataset, making it the year with the highest crime count (9446).
+The number of crimes in Chicago increases slowly throughout the years with a large spike in 2023 with a very high number of cases recorded in the dataset, making it the year with the highest crime count (9446), and answering the research question of "How has the total number of crimes changed over the years?"
 
 - Execution Logs:
  ```

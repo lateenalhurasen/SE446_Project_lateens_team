@@ -1,3 +1,41 @@
+Upload Script into HDFS cluster
+```
+mapperT2.py                                                                                                       100%  609     2.8KB/s   00:00
+reducer.py                                                                                                        100%  616     3.2KB/s   00:00
+```
+---
+Connect to HDFS successfully
+```
+lalhurasen@134.209.172.50's password:
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 5.15.0-170-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Thu Feb 19 17:42:36 UTC 2026
+
+  System load:  0.08               Processes:             113
+  Usage of /:   20.0% of 77.35GB   Users logged in:       0
+  Memory usage: 26%                IPv4 address for eth0: 134.209.172.50
+  Swap usage:   0%                 IPv4 address for eth0: 10.17.0.5
+
+Expanded Security Maintenance for Applications is not enabled.
+
+5 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+New release '24.04.4 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+Last login: Thu Feb 19 17:38:45 2026 from 188.48.183.138
+lalhurasen@master-node:~$ source /etc/profile.d/hadoop.sh
+```
+---
 mapred streaming command output
 ```
 lalhurasen@master-node:~$ mapred streaming \

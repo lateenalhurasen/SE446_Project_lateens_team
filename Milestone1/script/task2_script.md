@@ -1,4 +1,5 @@
 Log in & set the Hadoop Environment
+
 Firts upload the files into the cluster, access hdfs cluster
 ```
 (base) PS C:\Users\Latee\Desktop\Uni\SE 446\Milestone 1> scp mapperT2.py reducer.py lalhurasen@134.209.172.50:~/

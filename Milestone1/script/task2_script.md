@@ -1,6 +1,8 @@
-Delete output before rerun
+Log in & set the Hadoop Environment
 ```
-hdfs dfs -rm -r /user/lalhurasen/project/m1/task2
+(base) PS C:\Users\Latee\Desktop\Uni\SE 446\Milestone 1> scp mapperT2.py reducer.py lalhurasen@134.209.172.50:~/
+
+(base) PS C:\Users\Latee\Desktop\Uni\SE 446\Milestone 1> ssh lalhurasen@134.209.172.50
 ```
 ---
 Hadoop Cluster using mapred streaming

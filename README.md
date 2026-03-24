@@ -217,6 +217,8 @@ OTHER   266754
 ```
 
 - Interpretation: In this task we try to find the spots in Chicago where crimes happen the most by counting all incidents. So, with using the mapperT3 and reducer code file we have the chance to invistigate the research question ( where is the cities with the most crimes in it ? ) as it appear in the sample result.
+
+So, generaly speaking street locations account for the highest number of crimes (2,189,093), indicating that open public spaces are the most dangerous areas in Chicago, followed by residences and apartments.
   
 - Execution Logs:
 ```powershell

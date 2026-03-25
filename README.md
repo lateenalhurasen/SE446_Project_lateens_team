@@ -626,7 +626,7 @@ OTHER   266754
 ---
 ## Task 4 - Layan Alshowaier
 - Instructions:
-- 
+  
 Step 1: Upload mapperT4.py and reducer.py using scp.
 
 Step 2: Connect to the server using SSH.

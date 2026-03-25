@@ -886,7 +886,9 @@ lalshowaier@master-node:~$ hdfs dfs -cat /user/lalshowaier/project/m1/task4/part
  ```
 1- Upload the files to the cluster: scp mapperT5.py reducer.py mnalsadoon@134.209.172.50:~/
 2- Access hdfs cluster: ssh mnalsadoon@134.209.172.50
-3-
+3- Load the hadoop environment: source /etc/profile.d/hadoop.sh
+```
+```
 - Sample Results: 
 - Interpretation: 
 - Execution Logs:

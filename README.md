@@ -885,12 +885,12 @@ lalshowaier@master-node:~$ hdfs dfs -cat /user/lalshowaier/project/m1/task4/part
 - Instructions:
  ```
 1- Upload the files to the cluster: scp mapperT5.py reducer.py mnalsadoon@134.209.172.50:~/
- ```
-2- Access hdfs cluster: 
+2- Access hdfs cluster: ssh mnalsadoon@134.209.172.50
+3-
 - Sample Results: 
 - Interpretation: 
 - Execution Logs:
-  
+```  
 ---
 ## Members Contribution:
 

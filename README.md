@@ -882,7 +882,12 @@ lalshowaier@master-node:~$ hdfs dfs -cat /user/lalshowaier/project/m1/task4/part
 
 ---
 ## Task 5
-- Instructions: 
+- Instructions:
+ ```
+1- Upload the files to the cluster: scp mapperT5.py reducer.py mnalsadoon@134.209.172.50:~/
+ ```
+2-
+ ```
 - Sample Results: 
 - Interpretation: 
 - Execution Logs:

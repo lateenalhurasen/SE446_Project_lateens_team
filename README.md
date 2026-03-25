@@ -896,13 +896,15 @@ mapred streaming \
   -output /user/mnalsadoon/project/m1/task5
 5- View results: hdfs dfs -cat /user/mnalsadoon/project/m1/task5/part-00000
 ```
-```
+
 - Sample Results:
+```
 False   8589
 True    1220
 ```
 - Interpretation:
-
+```
+8589 records indicated the individuals who were not arrested, while 1220 were arrested
 ```
 - Execution Logs:
 ```  

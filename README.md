@@ -894,6 +894,7 @@ lalshowaier@master-node:~$ hdfs dfs -cat /user/lalshowaier/project/m1/task4/part
 ---
 ## Members Contribution:
 
+1. Lateen Alhurasen (231543) - TASK 1 & 2 Milestone 1 - Created a Private GitHub repository, wrote and ran mapperT2, recorded results in script, output and README files.
 2. Almaha Alrasheed ( 231707 ) - TASK 3 Milestone 1 - Wrote mapperT3, ran cluster job, documented results in script and output folders.
 3. Layan Alshowaier (231361) - TASK 4 Milestone 1 - Wrote and executed mapperT4, recorded the output and script in their files, and interpreted the results in the README file.
 

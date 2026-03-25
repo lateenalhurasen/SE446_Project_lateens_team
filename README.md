@@ -890,7 +890,7 @@ lalshowaier@master-node:~$ hdfs dfs -cat /user/lalshowaier/project/m1/task4/part
 ---
 ## Members Contribution:
 
-2- Almaha Alrasheed ( 231707 ) - TASK 3 Milestone 1 - Wrote mapperT3, ran cluster job, documented results in script and output folders.
-
+2. Almaha Alrasheed ( 231707 ) - TASK 3 Milestone 1 - Wrote mapperT3, ran cluster job, documented results in script and output folders.
+3. Layan Alshowaier (231361) - TASK 4 Milestone 1 - Wrote and executed mapperT4, recorded the output and script in their files, and interpreted the results in the README file.
 
 all group member has participated in writing the reducer in python.

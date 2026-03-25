@@ -887,13 +887,14 @@ lalshowaier@master-node:~$ hdfs dfs -cat /user/lalshowaier/project/m1/task4/part
 1- Upload the files to the cluster: scp mapperT5.py reducer.py mnalsadoon@134.209.172.50:~/
 2- Access hdfs cluster: ssh mnalsadoon@134.209.172.50
 3- Load the hadoop environment: source /etc/profile.d/hadoop.sh
-4- Run the streaming:
+4- Run mapreduce using the python scripts:
 mapred streaming \
   -files mapperT5.py,reducer.py \
   -mapper "python3 mapperT5.py" \
   -reducer "python3 reducer.py" \
   -input /data/chicago_crimes_sample.csv \
   -output /user/mnalsadoon/project/m1/task5
+5- View results: 
 ```
 ```
 - Sample Results: 

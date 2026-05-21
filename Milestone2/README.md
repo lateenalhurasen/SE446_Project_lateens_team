@@ -257,11 +257,3 @@ yarn logs -applicationId <appId>
 ```
 
 ---
-
-## 10. Key Findings
-
-1. **Spark is significantly faster** than MapReduce for all Phase A analyses
-2. **Crime type (crime_index)** is the overwhelming predictor of arrest (97.05% importance)
-3. **NARCOTICS** has the highest arrest rate (99.88%) while **BURGLARY** has one of the lowest (6.74%)
-4. **GBT is the best model** with AUC-ROC of 0.8292 and accuracy of 85.26%
-5. **Tree-based models** significantly outperform Logistic Regression due to non-linear crime-arrest relationships

@@ -143,7 +143,9 @@ After removing NULL values in key columns (Primary Type, Location Description, D
 
 ## 5. ML Results Summary (Phase B)
 
-> **Sampling Note:** Phase B used `df.sample(0.05, seed=42)` on the full HDFS dataset as required by the instructor due to cluster memory limitations. Training rows: 31,665 | Test rows: 7,787.
+> **Sampling Note:** Phase B used `df.sample(0.05, seed=42)` on the full HDFS dataset as required due to cluster memory limitations.
+>
+> Training rows: 31,665 | Test rows: 7,787.
 
 ### Model Comparison Table
 
@@ -166,7 +168,7 @@ After removing NULL values in key columns (Primary Type, Location Description, D
 
 ### Best Model: GBT
 
-GBT outperforms all models across every metric. It builds trees sequentially, each correcting errors of the previous one. This makes it especially powerful for this dataset where crime_index dominates with non-linear patterns. The tradeoff is training time (430s vs 29s for RF), but the accuracy gain justifies it.
+GBT outperforms all models across every metric. It builds trees sequentially, each correcting errors of the previous one. This makes it especially powerful for this dataset where crime_index has extremely strong and clear non-linear patterns. The tradeoff is training time (430s vs 29s for RF), but the accuracy gain justifies it.
 
 ### Feature Importances (Random Forest)
 
@@ -177,9 +179,9 @@ GBT outperforms all models across every metric. It builds trees sequentially, ea
 | Hour | 0.0111 (1.11%) |
 | District | 0.0057 (0.57%) |
 
-**crime_index dominates** because different crime types have dramatically different arrest rates (NARCOTICS: 99.88% vs BURGLARY: 6.74%), making crime type the strongest predictor of arrest outcome.
+**crime_index** dominates because the different crime types have extremely different arrest rates (NARCOTICS: 99.88% vs BURGLARY: 6.74%), making crime type the best predictor of arrest outcome.
 
-**Why Logistic Regression performs worse:** It assumes a linear decision boundary between features and arrest outcome. But arrest prediction is dominated by crime_index which has a highly non-linear, categorical relationship with arrest rates. Random Forest and GBT capture this naturally through decision trees.
+**Why Logistic Regression performs worse:** It assumes a linear decision boundary between features and arrest outcome. But arrest prediction is dominated by crime_index which has a highly non-linear, categorical relationship with arrest rates. Random Forest and GBT capture this simply through decision trees.
 
 ---
 

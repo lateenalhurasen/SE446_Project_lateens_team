@@ -164,7 +164,7 @@ After removing NULL values in key columns (Primary Type, Location Description, D
 | Random Forest | 5,619 | 0 | 1,404 | 764 |
 | GBT | 5,525 | 94 | 1,054 | 1,114 |
 
-### Best Model: GBT 🏆
+### Best Model: GBT
 
 GBT outperforms all models across every metric. It builds trees sequentially, each correcting errors of the previous one. This makes it especially powerful for this dataset where crime_index dominates with non-linear patterns. The tradeoff is training time (430s vs 29s for RF), but the accuracy gain justifies it.
 

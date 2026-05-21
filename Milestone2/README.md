@@ -137,7 +137,7 @@ After removing NULL values in key columns (Primary Type, Location Description, D
 | MOTOR VEHICLE THEFT | 48,493 | 5,256 | 10.84% |
 | THEFT | 162,678 | 23,174 | 14.25% |
 
-**Interpretation:** NARCOTICS has a near-perfect arrest rate (99.88%) because physical drug evidence is present at the scene, making arrest almost certain. BURGLARY and CRIMINAL DAMAGE have very low arrest rates (6-8%) because perpetrators are rarely caught at the scene — these crimes are typically discovered after the fact. This pattern directly explains why crime_index is the most important ML feature in Task 7 (97.05% importance) — the crime type alone predicts arrest outcome with very high accuracy.
+**Interpretation:** NARCOTICS has a near-perfect arrest rate (99.88%) because physical drug evidence is present at the scene, making arrest almost certain. BURGLARY and CRIMINAL DAMAGE have very low arrest rates (6-8%) because perpetrators are rarely caught at the scene  these crimes are typically discovered after the fact. This pattern directly explains why crime_index is the most important ML feature in Task 7 (97.05% importance) the crime type alone predicts arrest outcome with very high accuracy.
 
 ---
 

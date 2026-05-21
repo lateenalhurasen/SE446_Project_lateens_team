@@ -188,12 +188,12 @@ GBT outperforms all models across every metric. It builds trees sequentially, ea
 ### Task 9: Local Execution
 - Master: `local[*]`
 - Data: 10,000 generated rows (W09B style)
-- Screenshot: `output/task9_local_evidence.png`
+- Screenshot: `outputs/task_9/task9.png`
 
 ### Task 10: Cluster Execution (Client Mode)
 - Master: `yarn`
 - Data: 791,479 rows from `hdfs:///data/chicago_crimes.csv`
-- Screenshot: `output/task10_cluster_evidence.png`
+- Screenshot: `outputs/task_10/TASK10.png`
 
 ### Task 11: spark-submit (Cluster Mode)
 Command used:

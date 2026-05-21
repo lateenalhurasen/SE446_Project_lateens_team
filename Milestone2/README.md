@@ -207,7 +207,7 @@ spark-submit \
     --conf spark.executorEnv.PYSPARK_PYTHON=python3.12 \
     m2_spark_ml.py
 ```
-Full logs: `output/spark_submit/run.log`
+Full logs: `outputs/spark_submit/run.log`
 
 ---
 

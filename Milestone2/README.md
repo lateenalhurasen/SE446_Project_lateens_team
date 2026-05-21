@@ -35,7 +35,7 @@ Raw dataset: 793,073 rows (including header).
 After removing NULL values in key columns (Primary Type, Location Description, District, Year): **791,479 clean rows** used for analysis. This is standard data cleaning practice in big data pipelines.
 
 **Phase A** (Tasks 1-4): Full HDFS dataset (791,479 rows)  
-**Phase B** (Tasks 5-7): 5% sample (`df.sample(0.05, seed=42)`) — required due to cluster memory limits  
+**Phase B** (Tasks 5-7): 5% sample (`df.sample(0.05, seed=42)`) required due to cluster memory limits  
 
 ---
 

@@ -1,9 +1,4 @@
 # SE446 — Milestone 2: Chicago Crime Analytics with Spark + MLlib
-
-**Project**: SE446_M2Project_lateens_team  
-**Course**: SE446 Big Data Engineering  
-**Submission**: AssessX Group Project  
-
 ---
 
 ## 1. Team Members
